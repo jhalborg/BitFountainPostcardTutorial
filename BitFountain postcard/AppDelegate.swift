@@ -4,7 +4,11 @@
 //
 //  Created by Jesper Madsen on 15/05/15.
 //  Copyright (c) 2015 Jesper Madsen. All rights reserved.
-//
+//  GIT setup: 
+//  Lav et nyt repo, DON'T INITIALIZE!
+//  https://jkbdev.wordpress.com/2013/12/23/how-to-set-up-a-remote-github-repository-in-xcode-5/
+//  Tilfoj .gitignore lokalt i terminal. Naviger til root af lokal gitmappe, brug "touch .gitignore" og
+//  skriv ting ind
 
 import UIKit
 
