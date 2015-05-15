@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E84FF0BF1B0651A70029C589 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84FF0BE1B0651A70029C589 /* AppDelegate.swift */; };
+		E84FF0C11B0651A70029C589 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84FF0C01B0651A70029C589 /* ViewController.swift */; };
+		E84FF0C41B0651A70029C589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E84FF0C21B0651A70029C589 /* Main.storyboard */; };
+		E84FF0C61B0651A70029C589 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E84FF0C51B0651A70029C589 /* Images.xcassets */; };
+		E84FF0C91B0651A70029C589 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E84FF0C71B0651A70029C589 /* LaunchScreen.xib */; };
+		E84FF0D51B0651A70029C589 /* BitFountain_postcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84FF0D41B0651A70029C589 /* BitFountain_postcardTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E84FF0CF1B0651A70029C589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E84FF0B11B0651A70029C589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E84FF0B81B0651A70029C589;
+			remoteInfo = "BitFountain postcard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E84FF0B91B0651A70029C589 /* BitFountain postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BitFountain postcard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84FF0BD1B0651A70029C589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E84FF0BE1B0651A70029C589 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E84FF0C01B0651A70029C589 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E84FF0C31B0651A70029C589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E84FF0C51B0651A70029C589 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E84FF0C81B0651A70029C589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E84FF0CE1B0651A70029C589 /* BitFountain postcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BitFountain postcardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84FF0D31B0651A70029C589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E84FF0D41B0651A70029C589 /* BitFountain_postcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitFountain_postcardTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E84FF0B61B0651A70029C589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84FF0CB1B0651A70029C589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E84FF0B01B0651A70029C589 = {
+			isa = PBXGroup;
+			children = (
+				E84FF0BB1B0651A70029C589 /* BitFountain postcard */,
+				E84FF0D11B0651A70029C589 /* BitFountain postcardTests */,
+				E84FF0BA1B0651A70029C589 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E84FF0BA1B0651A70029C589 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E84FF0B91B0651A70029C589 /* BitFountain postcard.app */,
+				E84FF0CE1B0651A70029C589 /* BitFountain postcardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E84FF0BB1B0651A70029C589 /* BitFountain postcard */ = {
+			isa = PBXGroup;
+			children = (
+				E84FF0BE1B0651A70029C589 /* AppDelegate.swift */,
+				E84FF0C01B0651A70029C589 /* ViewController.swift */,
+				E84FF0C21B0651A70029C589 /* Main.storyboard */,
+				E84FF0C51B0651A70029C589 /* Images.xcassets */,
+				E84FF0C71B0651A70029C589 /* LaunchScreen.xib */,
+				E84FF0BC1B0651A70029C589 /* Supporting Files */,
+			);
+			path = "BitFountain postcard";
+			sourceTree = "<group>";
+		};
+		E84FF0BC1B0651A70029C589 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E84FF0BD1B0651A70029C589 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E84FF0D11B0651A70029C589 /* BitFountain postcardTests */ = {
+			isa = PBXGroup;
+			children = (
+				E84FF0D41B0651A70029C589 /* BitFountain_postcardTests.swift */,
+				E84FF0D21B0651A70029C589 /* Supporting Files */,
+			);
+			path = "BitFountain postcardTests";
+			sourceTree = "<group>";
+		};
+		E84FF0D21B0651A70029C589 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E84FF0D31B0651A70029C589 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E84FF0B81B0651A70029C589 /* BitFountain postcard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84FF0D81B0651A70029C589 /* Build configuration list for PBXNativeTarget "BitFountain postcard" */;
+			buildPhases = (
+				E84FF0B51B0651A70029C589 /* Sources */,
+				E84FF0B61B0651A70029C589 /* Frameworks */,
+				E84FF0B71B0651A70029C589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BitFountain postcard";
+			productName = "BitFountain postcard";
+			productReference = E84FF0B91B0651A70029C589 /* BitFountain postcard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E84FF0CD1B0651A70029C589 /* BitFountain postcardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84FF0DB1B0651A70029C589 /* Build configuration list for PBXNativeTarget "BitFountain postcardTests" */;
+			buildPhases = (
+				E84FF0CA1B0651A70029C589 /* Sources */,
+				E84FF0CB1B0651A70029C589 /* Frameworks */,
+				E84FF0CC1B0651A70029C589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E84FF0D01B0651A70029C589 /* PBXTargetDependency */,
+			);
+			name = "BitFountain postcardTests";
+			productName = "BitFountain postcardTests";
+			productReference = E84FF0CE1B0651A70029C589 /* BitFountain postcardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E84FF0B11B0651A70029C589 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Jesper Madsen";
+				TargetAttributes = {
+					E84FF0B81B0651A70029C589 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					E84FF0CD1B0651A70029C589 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = E84FF0B81B0651A70029C589;
+					};
+				};
+			};
+			buildConfigurationList = E84FF0B41B0651A70029C589 /* Build configuration list for PBXProject "BitFountain postcard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E84FF0B01B0651A70029C589;
+			productRefGroup = E84FF0BA1B0651A70029C589 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E84FF0B81B0651A70029C589 /* BitFountain postcard */,
+				E84FF0CD1B0651A70029C589 /* BitFountain postcardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E84FF0B71B0651A70029C589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84FF0C41B0651A70029C589 /* Main.storyboard in Resources */,
+				E84FF0C91B0651A70029C589 /* LaunchScreen.xib in Resources */,
+				E84FF0C61B0651A70029C589 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84FF0CC1B0651A70029C589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E84FF0B51B0651A70029C589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84FF0C11B0651A70029C589 /* ViewController.swift in Sources */,
+				E84FF0BF1B0651A70029C589 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84FF0CA1B0651A70029C589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84FF0D51B0651A70029C589 /* BitFountain_postcardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E84FF0D01B0651A70029C589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E84FF0B81B0651A70029C589 /* BitFountain postcard */;
+			targetProxy = E84FF0CF1B0651A70029C589 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E84FF0C21B0651A70029C589 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E84FF0C31B0651A70029C589 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E84FF0C71B0651A70029C589 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E84FF0C81B0651A70029C589 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E84FF0D61B0651A70029C589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E84FF0D71B0651A70029C589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E84FF0D91B0651A70029C589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BitFountain postcard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E84FF0DA1B0651A70029C589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BitFountain postcard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E84FF0DC1B0651A70029C589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BitFountain postcardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitFountain postcard.app/BitFountain postcard";
+			};
+			name = Debug;
+		};
+		E84FF0DD1B0651A70029C589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BitFountain postcardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitFountain postcard.app/BitFountain postcard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E84FF0B41B0651A70029C589 /* Build configuration list for PBXProject "BitFountain postcard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84FF0D61B0651A70029C589 /* Debug */,
+				E84FF0D71B0651A70029C589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84FF0D81B0651A70029C589 /* Build configuration list for PBXNativeTarget "BitFountain postcard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84FF0D91B0651A70029C589 /* Debug */,
+				E84FF0DA1B0651A70029C589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E84FF0DB1B0651A70029C589 /* Build configuration list for PBXNativeTarget "BitFountain postcardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84FF0DC1B0651A70029C589 /* Debug */,
+				E84FF0DD1B0651A70029C589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E84FF0B11B0651A70029C589 /* Project object */;
+}
